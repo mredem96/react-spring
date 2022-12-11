@@ -248,7 +248,7 @@ export const Parallax = React.memo(
         scrollTo: offset => scrollTo(offset),
         stop: () => state.controller.stop(),
       }),
-      []
+      [pages]
     )
 
     useEffect(() => {
